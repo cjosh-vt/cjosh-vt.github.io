@@ -1,25 +1,65 @@
-.ex-8 {
-background-color: #66bbe2;
-padding: 6% 10%;
-margin: auto;
-clip-path: polygon(0% 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0%, 25% 0%);
+.board {
+  background-image: url("https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/325/325384/stormy-seas.jpg?w=1155&h=1541");
+  background-color: #66bbe2;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 6% 10%;
+  margin: auto;
+  clip-path: polygon(0% 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0%, 25% 0%);
 }
 .token {
-font-family: serif;
-border-radius: 100%;
-background-color: wheat;
-width: 4em;
-height: 4em;
-color: black;
-display: table-cell;
-vertical-align: middle;
+  font-family: serif;
+  border-radius: 100%;
+  background-color: wheat;
+  width: 4em;
+  height: 4em;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
 }
 .token.token-red { color: crimson; }
 .token .id, .token .odds { font-size: 0.5em; }
 .token .dice { font-size: 2em; }
-.hills { background-color: #c8906e; }
-.pasture { background-color: #b5c881; }
-.mountains { background-color: #778088; }
-.fields { background-color: #e9b66c; }
-.forest { background-color: #55855f; }
-.desert { background-color: #f5dcad; }
+.hills {
+  background-image: url("https://www.visitourchina.com/FileUpload/Guide/Picture/200719125017202225.jpg");
+  background-color: #c8906e;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.pasture {
+  background-image: url("https://www.progressiveforage.com/images/stories/2010/05/26/0510fg_oswald_1_full.jpg");
+  background-color: #b5c881;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.mountains {
+  background-image: url("https://cosmosmagazine.com/wp-content/uploads/2020/02/190218-mount-full-1440x810.jpg");
+  background-color: #778088;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.fields {
+  background-image: url("https://knowledgenuts.com/wp-content/uploads/2013/12/155615621.jpg");
+  background-color: #e9b66c;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.forest {
+  background-image: url("https://bjornsphoto.files.wordpress.com/2012/10/beo1102-2s.jpg");
+  background-color: #55855f;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.desert {
+  background-image: url("https://adventure.com/wp-content/uploads/2019/02/Hero-Irans-secret-sand-dunes-Dunes-Varzaneh-Photo-credit-Flick-Aldo-Lammel.jpg");
+  background-color: #f5dcad;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

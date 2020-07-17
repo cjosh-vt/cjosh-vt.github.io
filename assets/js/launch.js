@@ -1,5 +1,5 @@
 S(document).ready(function(){
-  var hexmap = S.hexmap('hexmap-8');
+  var hexmap = S.hexmap('board');
   hexmap.positionHexes().resize();
 
   // Define the content of each hex
@@ -34,7 +34,7 @@ S(document).ready(function(){
   S('#button-8-terrain').on('click',function(){
 
     // Define the terrain types
-    var terrains = ['hills','pasture','mountains','fields','forest'];
+    var terrains = ['hills','hills','hills','pasture','pasture','pasture','pasture','mountains','mountains','mountains','fields','fields','fields','fields','forest','forest','forest','forest'];
 
     // Create an array of terrains to populate
     var t = new Array(hexmap.hexes.length);
