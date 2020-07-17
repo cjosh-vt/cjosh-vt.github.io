@@ -1,0 +1,25 @@
+.ex-8 {
+background-color: #66bbe2;
+padding: 6% 10%;
+margin: auto;
+clip-path: polygon(0% 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0%, 25% 0%);
+}
+.token {
+font-family: serif;
+border-radius: 100%;
+background-color: wheat;
+width: 4em;
+height: 4em;
+color: black;
+display: table-cell;
+vertical-align: middle;
+}
+.token.token-red { color: crimson; }
+.token .id, .token .odds { font-size: 0.5em; }
+.token .dice { font-size: 2em; }
+.hills { background-color: #c8906e; }
+.pasture { background-color: #b5c881; }
+.mountains { background-color: #778088; }
+.fields { background-color: #e9b66c; }
+.forest { background-color: #55855f; }
+.desert { background-color: #f5dcad; }
